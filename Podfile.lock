@@ -1,0 +1,48 @@
+PODS:
+  - Reusable (4.1.0):
+    - Reusable/Storyboard (= 4.1.0)
+    - Reusable/View (= 4.1.0)
+  - Reusable/Storyboard (4.1.0)
+  - Reusable/View (4.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SkyFloatingLabelTextField (3.7.0)
+  - SQLite.swift (0.12.0):
+    - SQLite.swift/standard (= 0.12.0)
+  - SQLite.swift/standard (0.12.0)
+  - SwiftGen (6.1.0)
+
+DEPENDENCIES:
+  - Reusable
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SQLite.swift (= 0.12.0)
+  - SwiftGen (~> 6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Reusable
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SkyFloatingLabelTextField
+    - SQLite.swift
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SQLite.swift: 7cad9db150a03716336e69469ec9559c85aece5b
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+
+PODFILE CHECKSUM: aeddac44d81ff52b6e8f8d82b433dc6ae49a9828
+
+COCOAPODS: 1.6.1

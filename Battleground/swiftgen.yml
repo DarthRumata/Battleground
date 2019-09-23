@@ -1,0 +1,12 @@
+strings:
+  inputs: Battleground/Resources/en.lproj
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift4
+      output: Battleground/Generated/Strings.swift
+xcassets:
+  inputs:
+    - Battleground/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: Battleground/Generated/Assets.swift
